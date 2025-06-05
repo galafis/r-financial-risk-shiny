@@ -1,0 +1,59 @@
+Package: rfinancialriskshiny
+Title: R Financial Risk Analysis and Visualization with Shiny
+Version: 0.1.0
+Authors@R: 
+    person("Gabriel", "Demetrios Lafis", email = "gabriel.lafis@example.com", role = c("aut", "cre"))
+Description: A comprehensive package for financial risk analysis and visualization using Shiny.
+    The package provides tools for Value at Risk (VaR) calculation, Expected Shortfall (ES),
+    portfolio optimization, stress testing, Monte Carlo simulations, and risk factor analysis.
+    Features include interactive dashboards, risk reports, and various risk visualization tools.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    shiny,
+    shinydashboard,
+    shinythemes,
+    shinyjs,
+    shinyWidgets,
+    DT,
+    plotly,
+    ggplot2,
+    dplyr,
+    tidyr,
+    purrr,
+    tibble,
+    lubridate,
+    xts,
+    zoo,
+    quantmod,
+    PerformanceAnalytics,
+    PortfolioAnalytics,
+    rugarch,
+    rmgarch,
+    tseries,
+    forecast,
+    fGarch,
+    copula,
+    MASS,
+    stats,
+    utils,
+    magrittr,
+    stringr,
+    readr,
+    scales,
+    RColorBrewer,
+    viridis
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    covr,
+    vdiffr
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Depends: 
+    R (>= 3.5.0)
+
