@@ -7,6 +7,14 @@
 ![Finance](https://img.shields.io/badge/Finance-Risk%20Analysis-green?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
+</div>
+
+<div align="center">
+  <img src="www/images/hero_image.png" alt="Financial Risk Analysis System Hero Image" width="700"/>
+</div>
+
+<div align="center">
+
 **Sistema completo para análise e gestão de riscos financeiros em tempo real**
 
 [📊 Funcionalidades](#-funcionalidades) • [📈 Modelos](#-modelos-implementados) • [⚡ Instalação](#-instalação) • [🎯 Demo](#-demonstração)
@@ -457,4 +465,5 @@ MIT License - veja o arquivo [LICENSE](LICENSE) para detalhes | see [LICENSE](LI
 [![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org/)
 
 </div>
+
 
