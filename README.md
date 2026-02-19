@@ -35,6 +35,20 @@ Sistema avançado de **análise de risco financeiro** desenvolvido em R e Shiny,
 - 📋 **Relatórios Automáticos**: Documentos PDF e Excel
 - 🔄 **Dados em Tempo Real**: Integração com APIs financeiras
 
+```mermaid
+flowchart LR
+    A[Data Input\nAPIs Financeiras] --> B[Risk Metrics Calculation\nGARCH / Monte Carlo]
+    B --> C[VaR / CVaR\nStress Testing]
+    C --> D[Visualization\nPlotly / ggplot2]
+    D --> E[Shiny Dashboard\nInterface Interativa]
+
+    style A fill:#276DC3,color:#fff
+    style B fill:#0f9d58,color:#fff
+    style C fill:#db4437,color:#fff
+    style D fill:#f4b400,color:#000
+    style E fill:#7b1fa2,color:#fff
+```
+
 ### 🎯 Objetivos do Sistema
 
 - **Quantificar riscos** de portfólios e investimentos
